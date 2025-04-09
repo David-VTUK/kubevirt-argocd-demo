@@ -12,3 +12,4 @@ spec:
         "type": "ovn-k8s-cni-overlay",
         "netAttachDefName": "virtual-machines/server-overlay-network-1",
         "topology": "layer2"
+}
