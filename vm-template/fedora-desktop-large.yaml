@@ -2,7 +2,7 @@ kind: Template
 apiVersion: template.openshift.io/v1
 metadata:
   name: gitops-fedora-desktop-large
-  namespace: openshift
+  namespace: virtual-machines
   labels:
     workload.template.kubevirt.io/desktop: 'true'
     app.kubernetes.io/part-of: hyperconverged-cluster
