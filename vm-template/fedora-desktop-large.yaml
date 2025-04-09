@@ -3,7 +3,6 @@ apiVersion: template.openshift.io/v1
 metadata:
   name: gitops-fedora-desktop-large
   namespace: openshift
-  uid: aebe9a9d-fda6-45f7-8789-f76cac477708
   labels:
     workload.template.kubevirt.io/desktop: 'true'
     app.kubernetes.io/part-of: hyperconverged-cluster
