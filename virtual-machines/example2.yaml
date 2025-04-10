@@ -26,6 +26,8 @@
                         "kind": "DataVolume",
                         "metadata": {
                             "name": "gitops-fedora-vm"
+                            "namespace": "virtual-machines"
+
                         },
                         "spec": {
                             "sourceRef": {
