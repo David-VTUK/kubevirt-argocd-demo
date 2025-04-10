@@ -11,7 +11,6 @@ metadata:
     app.kubernetes.io/version: 4.18.1
     template.kubevirt.io/type: base
     app.kubernetes.io/component: templating
-    app.kubernetes.io/managed-by: ssp-operator
     app.kubernetes.io/name: common-templates
     flavor.template.kubevirt.io/large: 'true'
     os.template.kubevirt.io/fedora40: 'true'
