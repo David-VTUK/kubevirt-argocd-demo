@@ -2,6 +2,7 @@ apiVersion: kubevirt.io/v1
 kind: VirtualMachine
 metadata:
   name: gitops-example-vm
+  namespace: virtual-machines
   annotations:
     description: VM example
   labels:
