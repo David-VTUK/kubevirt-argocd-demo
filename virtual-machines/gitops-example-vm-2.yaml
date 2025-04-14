@@ -9,7 +9,7 @@ metadata:
     app: gitops-example-vm-2
     os.template.kubevirt.io/fedora: 'true'
 spec:
-  runStrategy: Halted
+  runStrategy: Always
   template:
     metadata:
       annotations:
